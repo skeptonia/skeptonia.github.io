@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style-index.css">
+  <title>yasai.com</title>
+</head>
+<body>
+  
+  <header class="site-header">
+    <a href="#hero" class="logo">YSM</a>
+
+    <nav class="nav-desktop">
+        <a href="#hero" class="active">Главная</a>
+        <a href="#info">О нас</a>
+        <a href="#car">Наш болид</a>
+        <a href="#stats">Достижения</a>
+        <a href="#form">Сообщество</a>
+    </nav>
+
+    <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+    </button>
+  </header>
+
+<!-- Оверлей -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+<!-- Мобильное меню -->
+  <<nav class="nav-mobile" id="navMobile">
+      <div class="mobile-menu-label">Меню</div>
+        <a href="#hero" class="active">Главная</a>
+        <a href="#info">О нас</a>
+        <a href="#car">Наш болид</a>
+        <a href="#stats">Достижения</a>
+        <a href="#form">Сообщество</a>
+  </nav>
+
+
+  <section class="hero-container" id="hero">
+    
+    <div class="logo-box">
+        <div>
+          <a href="https://www.figma.com/design/Sp9Irt6iKY6C1hQk3xcLYL/gorky-code?node-id=0-1&t=BSt2DWtRLnI1Hkpc-1" target="_blank">
+            <img src="./CSS/img/LOGO4 V2 SVG.svg" alt="Penguin" class="penguin-black">
+          </a>
+        </div>
+        <h2 class="name-h2-logo">YASAI STREET MOTORSPORT</h2>
+        <h3 class="since-h3">SINCE 2007</h3>
+    </div>
+
+    <h3 class="learn-more">LEARN MORE</h3>
+
+    <div class="scroll-arrow" id="scroll-btn">
+        <span class="arrow-icon">︾</span>
+    </div>
+
+  </section>
+
+  <section class="info-container" id="info">
+
+    <div class="info-h2">YASAI STREET MOTORSPORT — это не просто гоночная команда,
+      а объединение фанатов скорости,
+      зародившееся асфальте ночных магистралей
+    </div>
+
+    <div class="info-h3">Мы объединяем инженерную точность профессионального автоспорта с дерзкой и свободной энергией андеграундной культуры.
+      <span style="color: #EECA00">Каждый наш болид</span> — это симбиоз предельной мощности и хирургической управляемости,
+      созданный для доминирования в самых сложных городских условиях.
+      Завоевав авторитет в ночных заездах C1 Loop и профессиональном дрифте,
+      мы продолжаем диктовать свои правила на улицах и треках.
+      Движимые адреналином и поиском идеальной траектории,
+      команда <span style="font-weight: 600;">YASAI</span> превращает каждую гонку в искусство чистой скорости
+    </div>
+
+    <div class="penguin-white">
+      <img src="./CSS/img/LOGO4 V2 SVG 2.svg" alt="white penguin looks peaceful">
+    </div>
+
+  </section>
+
+  <section class="car-section" id="car">
+
+    <div class="car-container">
+      <div class="box left-box">
+        <div class="header-machine">MAIN MACHINE</div>
+        <div class="photo">
+          <img src="./CSS/img/image 31.jpg" alt="бибика едет">
+        </div>
+        <div class="photo">
+          <img src="./CSS/img/image 32.jpg" alt="бибика еще едет">
+        </div>
+      </div>
+      <div class="box right-box">
+        <div class="header-modelOfAuto">NISSAN 400Z</div>
+        <div class="textInfo">
+          YSM 400Z — первый в России профессиональный гоночный автомобиль для дрифта на базе Nissan Z (RZ34).
+          Двигатель 2JZ-GTE Billet Block с турбиной Precision 6870.
+          Блок управления двигателем MoTeC M1. Мощность 970 л.с.
+          В качестве топлива используется специализированное BRFuel E85+.
+          4-ступенчатая секвентальная коробка передач Gearset.
+          Сцепление OS Giken.
+          Кардан и привода Driveshaft.
+          Спортивный редуктор Winters. Развесовка: передняя ось 55% задняя ось 45%.
+      </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="stats-section" id="stats">
+
+    <div class="stats-container">
+
+      <div><img src="./CSS/img/2025.svg" alt="2025" class="stats-year"></div>
+
+      <div class="stats-title">STATS<br>OF TEAM</div>
+
+      <div class="stats-list">
+        <ul>
+          <li>Абсолютные чемпионы D1 Underground 2025 </li>
+          <li>Рекордсмены ночной петли C1. Время круга – 13:42</li>
+          <li>Идеальный заезд 100/100 баллов на Tanso</li>
+          <li>Обладатели Triple Crown: Стиль и агрессивные постановки</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="community-section" id="form">
+  <h2 class="community-title">ВСТУПАЙТЕ В НАШЕ СООБЩЕСТВО</h2>
+  <div class="form-container">
+    <form id="community-form">
+      
+      <div class="input-group">
+        <label for="name">ИМЯ</label>
+        <input type="text" id="name" placeholder="Введите ваше имя..." required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" placeholder="Введите вашу почту..." required>
+      </div>
+
+      <div class="input-group">
+        <label for="message">СОПРОВОДИТЕЛЬНОЕ</label>
+        <textarea id="message" placeholder="Введите сообщение..." rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Отправить</button>
+      
+    </form>
+  </div>
+  </section>
+
+  <script src="./JS/INDEX.js"></script>
+ 
+</body>
+
+</html>
